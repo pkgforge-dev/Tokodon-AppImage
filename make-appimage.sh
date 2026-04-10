@@ -13,6 +13,7 @@ export DESKTOP=/usr/share/applications/org.kde.tokodon.desktop
 export STARTUPWMCLASS=org.kde.tokodon
 export DEPLOY_QT=1
 export QT_DIR=qt6
+export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/tokodon
