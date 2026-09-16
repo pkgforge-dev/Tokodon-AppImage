@@ -9,8 +9,6 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     kvantum        \
     lxqt-qtplugin  \
-    pipewire-audio \
-    pipewire-jack  \
     qt6ct          \
     tokodon
 

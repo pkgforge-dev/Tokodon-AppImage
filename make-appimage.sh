@@ -11,7 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.kde.tokodon.svg
 export DESKTOP=/usr/share/applications/org.kde.tokodon.desktop
 export STARTUPWMCLASS=org.kde.tokodon
-export DEPLOY_PIPEWIRE=1
+export DEPLOY_PULSE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/tokodon
